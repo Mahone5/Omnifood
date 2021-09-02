@@ -175,7 +175,7 @@
 
 .step-img-box::before,
 .step-img-box::after {
-  content: "";
+  content: '';
   display: block;
 
   position: absolute;
@@ -378,7 +378,7 @@
 }
 
 .pricing-plan--complete::after {
-  content: "Best value";
+  content: 'Best value';
   position: absolute;
   top: 6%;
   right: -18%;
