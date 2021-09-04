@@ -59,6 +59,7 @@ Default: 9px
 html {
   /* font-size: 10px; */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -66,6 +67,9 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+
+  /* Only works if nothing absolutely positioned in relation to body, which main-nav currently is */
+  overflow-x: hidden;
 }
 
 /* ******************** */
